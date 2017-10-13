@@ -2,8 +2,8 @@
 //  Vkrypt_tempTests.swift
 //  Vkrypt_tempTests
 //
-//  Created by Kodyk Valentina on 11.10.2017.
-//  Copyright © 2017 Kodyk Valentina. All rights reserved.
+//  Created by B.A.b.K.A.team on 11.10.2017.
+//  Copyright © 2017 B.A.b.K.A.team. All rights reserved.
 //
 
 import XCTest
