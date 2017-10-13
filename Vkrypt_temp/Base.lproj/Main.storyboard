@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SplashViewController" customModule="Vkrypt_temp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="200px-VK.com-logo" translatesAutoresizingMaskIntoConstraints="NO" id="tDJ-pu-ffd">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="KPe-cu-hY6"/>
+                                    <constraint firstAttribute="height" constant="128" id="PTK-eL-Msa"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.22366014548710414" green="0.50560170412063599" blue="0.72157996892929077" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tDJ-pu-ffd" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="IIb-ta-yen"/>
+                            <constraint firstItem="tDJ-pu-ffd" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Vrb-T0-iBU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <segue destination="GAO-HZ-hR0" kind="presentation" identifier="TabTapeedViewSegue" id="BMK-yu-GpV"/>
+                        <segue destination="LSN-ae-jpi" kind="presentation" identifier="LoginSegue" id="Nfa-lZ-u2q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57" y="-232"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="1g5-4N-hdm">
+            <objects>
+                <viewController id="LSN-ae-jpi" customClass="LoginViewController" customModule="Vkrypt_temp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g06-1t-3uA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="200px-VK.com-logo" translatesAutoresizingMaskIntoConstraints="NO" id="Gus-S9-A3k">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Gus-S9-A3k" secondAttribute="height" multiplier="15:8" id="0Gp-Bf-Rqh"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i1y-SC-gS7">
+                                <rect key="frame" x="100" y="526" width="174" height="44.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIx-bR-WE2">
+                                        <rect key="frame" x="64" y="8" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Log In"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="174" id="4NL-GA-NrG"/>
+                                    <constraint firstAttribute="height" constant="44.5" id="QLr-GG-M2k"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to VKrypt!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3A-Sy-rOJ">
+                                <rect key="frame" x="79.5" y="414.5" width="217.5" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.22432717680931091" green="0.50577229261398315" blue="0.72189682722091675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gus-S9-A3k" firstAttribute="centerX" secondItem="HWG-iG-zCH" secondAttribute="centerX" id="43t-9P-zWM"/>
+                            <constraint firstItem="Gus-S9-A3k" firstAttribute="height" secondItem="g06-1t-3uA" secondAttribute="height" multiplier="0.1" id="9Tb-zT-nEJ"/>
+                            <constraint firstItem="Gus-S9-A3k" firstAttribute="centerY" secondItem="HWG-iG-zCH" secondAttribute="centerY" multiplier="0.1" id="ILh-hp-I1S"/>
+                            <constraint firstItem="Gus-S9-A3k" firstAttribute="height" secondItem="g06-1t-3uA" secondAttribute="height" multiplier="0.25" id="T1V-dF-GMC"/>
+                            <constraint firstItem="i1y-SC-gS7" firstAttribute="centerX" secondItem="HWG-iG-zCH" secondAttribute="centerX" id="T5N-eH-y9d"/>
+                            <constraint firstItem="J3A-Sy-rOJ" firstAttribute="centerY" secondItem="HWG-iG-zCH" secondAttribute="centerY" multiplier="1.25" id="UMv-Te-S6k"/>
+                            <constraint firstItem="J3A-Sy-rOJ" firstAttribute="centerX" secondItem="HWG-iG-zCH" secondAttribute="centerX" id="Ugh-KO-dzz"/>
+                            <constraint firstItem="HWG-iG-zCH" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="i1y-SC-gS7" secondAttribute="bottom" constant="20" id="aQ4-os-wY1"/>
+                            <constraint firstItem="i1y-SC-gS7" firstAttribute="top" secondItem="J3A-Sy-rOJ" secondAttribute="bottom" constant="80" id="din-fT-edL"/>
+                            <constraint firstItem="Gus-S9-A3k" firstAttribute="centerY" secondItem="HWG-iG-zCH" secondAttribute="centerY" id="yt4-Me-jAZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HWG-iG-zCH"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ILh-hp-I1S"/>
+                                <exclude reference="T1V-dF-GMC"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bul-0G-QUO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-58" y="532"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="laD-a2-Fui">
+            <objects>
+                <tabBarController id="GAO-HZ-hR0" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hZ8-nc-8DG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="cyx-Ge-lwY" kind="relationship" relationship="viewControllers" id="Qkj-nX-1Jt"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cP2-Hp-fy2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="702" y="-233"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="vsp-0E-K7z">
+            <objects>
+                <viewController id="cyx-Ge-lwY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="33c-vH-JY8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="zxo-i1-hZp"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" id="xqr-GS-pjL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="afg-lr-pNl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1470" y="-233"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="200px-VK.com-logo" width="200" height="200"/>
+    </resources>
+</document>

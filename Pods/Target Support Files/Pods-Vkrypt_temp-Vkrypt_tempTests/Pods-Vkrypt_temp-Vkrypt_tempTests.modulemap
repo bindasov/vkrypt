@@ -1,0 +1,6 @@
+framework module Pods_Vkrypt_temp_Vkrypt_tempTests {
+  umbrella header "Pods-Vkrypt_temp-Vkrypt_tempTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
