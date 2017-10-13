@@ -24,6 +24,31 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        //Gradient
+        let color1 = UIColor(red: 83.0/255.0, green: 130.0/255.0, blue: 182.0/255.0, alpha: 1.0)
+        //let color2 = UIColor(red: 88.0/255.0, green: 178.0/255.0, blue: 235.0/255.0, alpha: 1.0)
+        let color3 = UIColor(red: 102.0/255.0, green: 153.0/255.0, blue: 231.0/255.0, alpha: 1.0)
+        let color4 = UIColor(red: 141.0/255.0, green: 177.0/255.0, blue: 228.0/255.0, alpha: 1.0)
+
+        let gradientColor: [CGColor] = [color1.cgColor, color3.cgColor, color4.cgColor]
+        let gradientLocations: [Float] = [0.0, 0.75, 1.0]
+
+        let gradientLayer: CAGradientLayer = CAGradientLayer()
+        gradientLayer.colors = gradientColor
+        gradientLayer.locations = gradientLocations as [NSNumber]
+
+        gradientLayer.frame = self.view.bounds
+        self.view.layer.insertSublayer(gradientLayer, at: 0)
+        
+        
+        buttonContainerView.layer.cornerRadius = 5
+        
+        buttonContainerView.alpha = 0
+        titleLabel.alpha = 0
+        
+        UIApplication.shared.statusBarStyle = .lightContent
+        
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -37,7 +62,7 @@ class LoginViewController: UIViewController {
         //отключаем
         logoHeightSmallerConstraint.isActive = true
         
-        UIView.animate(withDuration: 1.5) {
+        UIView.animate(withDuration: 1.0 ) {
             self.view.layoutIfNeeded()
             
             self.buttonContainerView.alpha = 1
@@ -58,6 +83,11 @@ class LoginViewController: UIViewController {
         }
     }
     
+    @IBAction func onloginButton() {
+        //авторизация пользователя
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -73,5 +103,6 @@ class LoginViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
 
 }

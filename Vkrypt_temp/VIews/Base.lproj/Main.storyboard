@@ -63,6 +63,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIx-bR-WE2">
                                         <rect key="frame" x="64" y="8" width="46" height="30"/>
                                         <state key="normal" title="Log In"/>
+                                        <connections>
+                                            <action selector="onloginButton" destination="LSN-ae-jpi" eventType="touchUpInside" id="0Dd-fn-qnt"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
