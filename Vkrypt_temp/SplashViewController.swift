@@ -2,8 +2,8 @@
 //  SplashViewController.swift
 //  Vkrypt_temp
 //
-//  Created by Kodyk Valentina on 13.10.2017.
-//  Copyright © 2017 Kodyk Valentina. All rights reserved.
+//  Created by team on 13.10.2017.
+//  Copyright © 2017 team. All rights reserved.
 //
 
 import UIKit
