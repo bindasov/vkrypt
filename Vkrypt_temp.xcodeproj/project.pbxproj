@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21D035791F90D45100E8F620 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D035781F90D45100E8F620 /* User.swift */; };
+		21D0357F1F90D4F900E8F620 /* VKClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D0357E1F90D4F900E8F620 /* VKClient.swift */; };
 		6094238ADFB683B9C59D3663 /* Pods_Vkrypt_temp_Vkrypt_tempTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D638512469F511AC6972C8E /* Pods_Vkrypt_temp_Vkrypt_tempTests.framework */; };
 		A80DAB3466D60DEEB71B7D77 /* Pods_Vkrypt_temp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3D21D0E74D9821227E807D /* Pods_Vkrypt_temp.framework */; };
 		C92D12F41F8E804E004FFB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D12F31F8E804E004FFB9E /* AppDelegate.swift */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		1D638512469F511AC6972C8E /* Pods_Vkrypt_temp_Vkrypt_tempTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vkrypt_temp_Vkrypt_tempTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D035781F90D45100E8F620 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		21D0357E1F90D4F900E8F620 /* VKClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKClient.swift; sourceTree = "<group>"; };
 		258B895841AA032EAC55EFF0 /* Pods-Vkrypt_temp-Vkrypt_tempUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vkrypt_temp-Vkrypt_tempUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempUITests/Pods-Vkrypt_temp-Vkrypt_tempUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2B8D2BE0BED2F63735201095 /* Pods_Vkrypt_temp_Vkrypt_tempUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vkrypt_temp_Vkrypt_tempUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A48A61D3EA93769B19C716E /* Pods-Vkrypt_temp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vkrypt_temp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vkrypt_temp/Pods-Vkrypt_temp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +97,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21D035751F90D3CB00E8F620 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9C439FB1F902470007D5886 /* SplashViewController.swift */,
+				C9C439FD1F90388C007D5886 /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		21D035761F90D3E800E8F620 /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				C92D12FA1F8E804E004FFB9E /* Assets.xcassets */,
+				C92D12FC1F8E804E004FFB9E /* LaunchScreen.storyboard */,
+				C92D12F71F8E804E004FFB9E /* Main.storyboard */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		21D035771F90D41F00E8F620 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				C92D12F31F8E804E004FFB9E /* AppDelegate.swift */,
+				C9C439FF1F903E0C007D5886 /* VKryptLoginDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		21D0357A1F90D48900E8F620 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				21D035781F90D45100E8F620 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		21D035801F90D50900E8F620 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				21D0357E1F90D4F900E8F620 /* VKClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		86F46FDE2D21F5734921C3C7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,14 +189,12 @@
 		C92D12F21F8E804E004FFB9E /* Vkrypt_temp */ = {
 			isa = PBXGroup;
 			children = (
-				C92D12F31F8E804E004FFB9E /* AppDelegate.swift */,
-				C92D12F71F8E804E004FFB9E /* Main.storyboard */,
-				C9C439FB1F902470007D5886 /* SplashViewController.swift */,
-				C9C439FD1F90388C007D5886 /* LoginViewController.swift */,
-				C9C439FF1F903E0C007D5886 /* VKryptLoginDelegate.swift */,
-				C92D12FA1F8E804E004FFB9E /* Assets.xcassets */,
-				C92D12FC1F8E804E004FFB9E /* LaunchScreen.storyboard */,
 				C92D12FF1F8E804E004FFB9E /* Info.plist */,
+				21D035771F90D41F00E8F620 /* Delegates */,
+				21D035761F90D3E800E8F620 /* VIews */,
+				21D035751F90D3CB00E8F620 /* Controllers */,
+				21D0357A1F90D48900E8F620 /* Models */,
+				21D035801F90D50900E8F620 /* API */,
 			);
 			path = Vkrypt_temp;
 			sourceTree = "<group>";
@@ -471,8 +517,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9C43A001F903E0C007D5886 /* VKryptLoginDelegate.swift in Sources */,
+				21D0357F1F90D4F900E8F620 /* VKClient.swift in Sources */,
 				C9C439FE1F90388C007D5886 /* LoginViewController.swift in Sources */,
 				C92D12F41F8E804E004FFB9E /* AppDelegate.swift in Sources */,
+				21D035791F90D45100E8F620 /* User.swift in Sources */,
 				C9C439FC1F902470007D5886 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
