@@ -85,7 +85,7 @@ class LoginViewController: UIViewController {
     
     @IBAction func onloginButton() {
         //авторизация пользователя
-        
+        VKClient.action(1)
     }
     
     override func didReceiveMemoryWarning() {
