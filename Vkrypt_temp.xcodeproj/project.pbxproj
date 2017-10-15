@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21A105A71F92950F0043B57F /* VkDeleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A105A61F92950F0043B57F /* VkDeleg.swift */; };
 		21D035791F90D45100E8F620 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D035781F90D45100E8F620 /* User.swift */; };
 		21D0357F1F90D4F900E8F620 /* VKClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D0357E1F90D4F900E8F620 /* VKClient.swift */; };
 		6094238ADFB683B9C59D3663 /* Pods_Vkrypt_temp_Vkrypt_tempTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D638512469F511AC6972C8E /* Pods_Vkrypt_temp_Vkrypt_tempTests.framework */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		1D638512469F511AC6972C8E /* Pods_Vkrypt_temp_Vkrypt_tempTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vkrypt_temp_Vkrypt_tempTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A105A61F92950F0043B57F /* VkDeleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkDeleg.swift; sourceTree = "<group>"; };
 		21D035781F90D45100E8F620 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		21D0357E1F90D4F900E8F620 /* VKClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKClient.swift; sourceTree = "<group>"; };
 		258B895841AA032EAC55EFF0 /* Pods-Vkrypt_temp-Vkrypt_tempUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vkrypt_temp-Vkrypt_tempUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempUITests/Pods-Vkrypt_temp-Vkrypt_tempUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			children = (
 				C92D12F31F8E804E004FFB9E /* AppDelegate.swift */,
 				C9C439FF1F903E0C007D5886 /* VKryptLoginDelegate.swift */,
+				21A105A61F92950F0043B57F /* VkDeleg.swift */,
 			);
 			path = Delegates;
 			sourceTree = "<group>";
@@ -517,6 +520,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9C43A001F903E0C007D5886 /* VKryptLoginDelegate.swift in Sources */,
+				21A105A71F92950F0043B57F /* VkDeleg.swift in Sources */,
 				21D0357F1F90D4F900E8F620 /* VKClient.swift in Sources */,
 				C9C439FE1F90388C007D5886 /* LoginViewController.swift in Sources */,
 				C92D12F41F8E804E004FFB9E /* AppDelegate.swift in Sources */,
