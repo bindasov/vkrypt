@@ -22,12 +22,12 @@ class SplashViewController: UIViewController, VKryptLoginDelegate {
         super.viewDidAppear(animated)
         
         // if appDelegate.splashDelay not false
-        if(!appDelegate.splashDelay) {
-            delay(1.0, closure: {
-                //smth to do
-                self.continueLogin()
-            })
-        }
+//        if(!appDelegate.splashDelay) {
+//            delay(1.0, closure: {
+//                //smth to do
+//                self.continueLogin()
+//            })
+//        }
     }
     
     func goToLogin() {
@@ -38,7 +38,7 @@ class SplashViewController: UIViewController, VKryptLoginDelegate {
     
     //если польщователь присутствует, даем ему доступ; иначе - надо авторизоваться
     func continueLogin() {
-        appDelegate.splashDelay = false
+        //appDelegate.splashDelay = false
         self.goToLogin()
     }
 }

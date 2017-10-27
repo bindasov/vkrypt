@@ -10,18 +10,19 @@
 		21A105A71F92950F0043B57F /* VkDeleg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A105A61F92950F0043B57F /* VkDeleg.swift */; };
 		21D035791F90D45100E8F620 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D035781F90D45100E8F620 /* User.swift */; };
 		21D0357F1F90D4F900E8F620 /* VKClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D0357E1F90D4F900E8F620 /* VKClient.swift */; };
-		6094238ADFB683B9C59D3663 /* Pods_Vkrypt_temp_Vkrypt_tempTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D638512469F511AC6972C8E /* Pods_Vkrypt_temp_Vkrypt_tempTests.framework */; };
-		A80DAB3466D60DEEB71B7D77 /* Pods_Vkrypt_temp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3D21D0E74D9821227E807D /* Pods_Vkrypt_temp.framework */; };
+		554B345FC62A9AB3D18A6A82 /* Pods_Vkrypt_temp_Vkrypt_tempTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDEC8437C293C8B33C8448 /* Pods_Vkrypt_temp_Vkrypt_tempTests.framework */; };
 		C92D12F41F8E804E004FFB9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D12F31F8E804E004FFB9E /* AppDelegate.swift */; };
 		C92D12F91F8E804E004FFB9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92D12F71F8E804E004FFB9E /* Main.storyboard */; };
 		C92D12FB1F8E804E004FFB9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C92D12FA1F8E804E004FFB9E /* Assets.xcassets */; };
 		C92D12FE1F8E804E004FFB9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92D12FC1F8E804E004FFB9E /* LaunchScreen.storyboard */; };
 		C92D13091F8E804E004FFB9E /* Vkrypt_tempTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D13081F8E804E004FFB9E /* Vkrypt_tempTests.swift */; };
 		C92D13141F8E804E004FFB9E /* Vkrypt_tempUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D13131F8E804E004FFB9E /* Vkrypt_tempUITests.swift */; };
+		C9AAFF091FA350E7005577DE /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AAFF081FA350E7005577DE /* SwiftyJSON.swift */; };
 		C9C439FC1F902470007D5886 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C439FB1F902470007D5886 /* SplashViewController.swift */; };
 		C9C439FE1F90388C007D5886 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C439FD1F90388C007D5886 /* LoginViewController.swift */; };
 		C9C43A001F903E0C007D5886 /* VKryptLoginDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C439FF1F903E0C007D5886 /* VKryptLoginDelegate.swift */; };
-		E866269050574B1CE43ED7A7 /* Pods_Vkrypt_temp_Vkrypt_tempUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8D2BE0BED2F63735201095 /* Pods_Vkrypt_temp_Vkrypt_tempUITests.framework */; };
+		D2191C14793C9CDCFC9D2390 /* Pods_Vkrypt_temp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3597AAFB146CEBEECF69949 /* Pods_Vkrypt_temp.framework */; };
+		F442F4E3462CBB4F02116F55 /* Pods_Vkrypt_temp_Vkrypt_tempUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423A28B0A56C46C7BF86E3F5 /* Pods_Vkrypt_temp_Vkrypt_tempUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,17 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D638512469F511AC6972C8E /* Pods_Vkrypt_temp_Vkrypt_tempTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vkrypt_temp_Vkrypt_tempTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		207E8EF273E53F86CEF9A974 /* Pods-Vkrypt_temp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vkrypt_temp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vkrypt_temp/Pods-Vkrypt_temp.release.xcconfig"; sourceTree = "<group>"; };
 		21A105A61F92950F0043B57F /* VkDeleg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkDeleg.swift; sourceTree = "<group>"; };
 		21D035781F90D45100E8F620 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		21D0357E1F90D4F900E8F620 /* VKClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKClient.swift; sourceTree = "<group>"; };
-		258B895841AA032EAC55EFF0 /* Pods-Vkrypt_temp-Vkrypt_tempUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vkrypt_temp-Vkrypt_tempUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempUITests/Pods-Vkrypt_temp-Vkrypt_tempUITests.release.xcconfig"; sourceTree = "<group>"; };
-		2B8D2BE0BED2F63735201095 /* Pods_Vkrypt_temp_Vkrypt_tempUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vkrypt_temp_Vkrypt_tempUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A48A61D3EA93769B19C716E /* Pods-Vkrypt_temp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vkrypt_temp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vkrypt_temp/Pods-Vkrypt_temp.debug.xcconfig"; sourceTree = "<group>"; };
-		3AAEBA1DF546C23978B4D105 /* Pods-Vkrypt_temp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vkrypt_temp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vkrypt_temp/Pods-Vkrypt_temp.release.xcconfig"; sourceTree = "<group>"; };
-		4B3D21D0E74D9821227E807D /* Pods_Vkrypt_temp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vkrypt_temp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		67137FA3A12D01A2F4EBAA80 /* Pods-Vkrypt_temp-Vkrypt_tempUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vkrypt_temp-Vkrypt_tempUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempUITests/Pods-Vkrypt_temp-Vkrypt_tempUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		70DB1B65827807EEBC51D3EE /* Pods-Vkrypt_temp-Vkrypt_tempTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vkrypt_temp-Vkrypt_tempTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempTests/Pods-Vkrypt_temp-Vkrypt_tempTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D8228EF4A035D18FA8C4F8D /* Pods-Vkrypt_temp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vkrypt_temp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vkrypt_temp/Pods-Vkrypt_temp.debug.xcconfig"; sourceTree = "<group>"; };
+		423A28B0A56C46C7BF86E3F5 /* Pods_Vkrypt_temp_Vkrypt_tempUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vkrypt_temp_Vkrypt_tempUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		690DB64C5F899E712040A2AA /* Pods-Vkrypt_temp-Vkrypt_tempTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vkrypt_temp-Vkrypt_tempTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempTests/Pods-Vkrypt_temp-Vkrypt_tempTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F36ACA20823DB6A94671F2B /* Pods-Vkrypt_temp-Vkrypt_tempUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vkrypt_temp-Vkrypt_tempUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempUITests/Pods-Vkrypt_temp-Vkrypt_tempUITests.release.xcconfig"; sourceTree = "<group>"; };
+		79BDEC8437C293C8B33C8448 /* Pods_Vkrypt_temp_Vkrypt_tempTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vkrypt_temp_Vkrypt_tempTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90489D86A0D831B4BCB1FBB1 /* Pods-Vkrypt_temp-Vkrypt_tempTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vkrypt_temp-Vkrypt_tempTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempTests/Pods-Vkrypt_temp-Vkrypt_tempTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A90BCEAE363591CD4F46E775 /* Pods-Vkrypt_temp-Vkrypt_tempUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vkrypt_temp-Vkrypt_tempUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempUITests/Pods-Vkrypt_temp-Vkrypt_tempUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C92D12F01F8E804E004FFB9E /* Vkrypt_temp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vkrypt_temp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92D12F31F8E804E004FFB9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C92D12F81F8E804E004FFB9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,10 +66,11 @@
 		C92D130F1F8E804E004FFB9E /* Vkrypt_tempUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vkrypt_tempUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92D13131F8E804E004FFB9E /* Vkrypt_tempUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vkrypt_tempUITests.swift; sourceTree = "<group>"; };
 		C92D13151F8E804E004FFB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9AAFF081FA350E7005577DE /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		C9C439FB1F902470007D5886 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		C9C439FD1F90388C007D5886 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C9C439FF1F903E0C007D5886 /* VKryptLoginDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKryptLoginDelegate.swift; sourceTree = "<group>"; };
-		D5DA551F45D56DFA5017CE37 /* Pods-Vkrypt_temp-Vkrypt_tempTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vkrypt_temp-Vkrypt_tempTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempTests/Pods-Vkrypt_temp-Vkrypt_tempTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3597AAFB146CEBEECF69949 /* Pods_Vkrypt_temp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vkrypt_temp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A80DAB3466D60DEEB71B7D77 /* Pods_Vkrypt_temp.framework in Frameworks */,
+				D2191C14793C9CDCFC9D2390 /* Pods_Vkrypt_temp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6094238ADFB683B9C59D3663 /* Pods_Vkrypt_temp_Vkrypt_tempTests.framework in Frameworks */,
+				554B345FC62A9AB3D18A6A82 /* Pods_Vkrypt_temp_Vkrypt_tempTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E866269050574B1CE43ED7A7 /* Pods_Vkrypt_temp_Vkrypt_tempUITests.framework in Frameworks */,
+				F442F4E3462CBB4F02116F55 /* Pods_Vkrypt_temp_Vkrypt_tempUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,29 +142,30 @@
 			isa = PBXGroup;
 			children = (
 				21D0357E1F90D4F900E8F620 /* VKClient.swift */,
+				C9AAFF081FA350E7005577DE /* SwiftyJSON.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
 		};
-		86F46FDE2D21F5734921C3C7 /* Pods */ = {
+		8E97E496E10D3CD57E66E1A0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3A48A61D3EA93769B19C716E /* Pods-Vkrypt_temp.debug.xcconfig */,
-				3AAEBA1DF546C23978B4D105 /* Pods-Vkrypt_temp.release.xcconfig */,
-				D5DA551F45D56DFA5017CE37 /* Pods-Vkrypt_temp-Vkrypt_tempTests.debug.xcconfig */,
-				70DB1B65827807EEBC51D3EE /* Pods-Vkrypt_temp-Vkrypt_tempTests.release.xcconfig */,
-				67137FA3A12D01A2F4EBAA80 /* Pods-Vkrypt_temp-Vkrypt_tempUITests.debug.xcconfig */,
-				258B895841AA032EAC55EFF0 /* Pods-Vkrypt_temp-Vkrypt_tempUITests.release.xcconfig */,
+				3D8228EF4A035D18FA8C4F8D /* Pods-Vkrypt_temp.debug.xcconfig */,
+				207E8EF273E53F86CEF9A974 /* Pods-Vkrypt_temp.release.xcconfig */,
+				90489D86A0D831B4BCB1FBB1 /* Pods-Vkrypt_temp-Vkrypt_tempTests.debug.xcconfig */,
+				690DB64C5F899E712040A2AA /* Pods-Vkrypt_temp-Vkrypt_tempTests.release.xcconfig */,
+				A90BCEAE363591CD4F46E775 /* Pods-Vkrypt_temp-Vkrypt_tempUITests.debug.xcconfig */,
+				6F36ACA20823DB6A94671F2B /* Pods-Vkrypt_temp-Vkrypt_tempUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		AC5FD6DE417F80A57E096929 /* Frameworks */ = {
+		BC00931713AC679D38F713F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4B3D21D0E74D9821227E807D /* Pods_Vkrypt_temp.framework */,
-				1D638512469F511AC6972C8E /* Pods_Vkrypt_temp_Vkrypt_tempTests.framework */,
-				2B8D2BE0BED2F63735201095 /* Pods_Vkrypt_temp_Vkrypt_tempUITests.framework */,
+				D3597AAFB146CEBEECF69949 /* Pods_Vkrypt_temp.framework */,
+				79BDEC8437C293C8B33C8448 /* Pods_Vkrypt_temp_Vkrypt_tempTests.framework */,
+				423A28B0A56C46C7BF86E3F5 /* Pods_Vkrypt_temp_Vkrypt_tempUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,8 +177,8 @@
 				C92D13071F8E804E004FFB9E /* Vkrypt_tempTests */,
 				C92D13121F8E804E004FFB9E /* Vkrypt_tempUITests */,
 				C92D12F11F8E804E004FFB9E /* Products */,
-				86F46FDE2D21F5734921C3C7 /* Pods */,
-				AC5FD6DE417F80A57E096929 /* Frameworks */,
+				8E97E496E10D3CD57E66E1A0 /* Pods */,
+				BC00931713AC679D38F713F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -227,12 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C92D13181F8E804E004FFB9E /* Build configuration list for PBXNativeTarget "Vkrypt_temp" */;
 			buildPhases = (
-				996ED4A0CF6023932D899F59 /* [CP] Check Pods Manifest.lock */,
+				C75ABF9A820FBE1A7F91AB0D /* [CP] Check Pods Manifest.lock */,
 				C92D12EC1F8E804E004FFB9E /* Sources */,
 				C92D12ED1F8E804E004FFB9E /* Frameworks */,
 				C92D12EE1F8E804E004FFB9E /* Resources */,
-				568E049D8C3D34E4251DEB49 /* [CP] Embed Pods Frameworks */,
-				D5CC8CD37B12678E821B5DD6 /* [CP] Copy Pods Resources */,
+				13AE586209EDDE05B3B354B1 /* [CP] Embed Pods Frameworks */,
+				EDFA0A713B48B0FC70846D13 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,12 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C92D131B1F8E804E004FFB9E /* Build configuration list for PBXNativeTarget "Vkrypt_tempTests" */;
 			buildPhases = (
-				05293EB607DAF154CCC6C6B1 /* [CP] Check Pods Manifest.lock */,
+				19A1E6587DBF96178B9AAEE2 /* [CP] Check Pods Manifest.lock */,
 				C92D13001F8E804E004FFB9E /* Sources */,
 				C92D13011F8E804E004FFB9E /* Frameworks */,
 				C92D13021F8E804E004FFB9E /* Resources */,
-				348FE6511C1AF706DBD3D18C /* [CP] Embed Pods Frameworks */,
-				58DD0E4DB3FFFAE03D17FF4D /* [CP] Copy Pods Resources */,
+				2D3CE7FE0C8B0C2330B266D6 /* [CP] Embed Pods Frameworks */,
+				AED34AD4694A6BCEF18A1517 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,12 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C92D131E1F8E804E004FFB9E /* Build configuration list for PBXNativeTarget "Vkrypt_tempUITests" */;
 			buildPhases = (
-				15263D185646F06A64AAC313 /* [CP] Check Pods Manifest.lock */,
+				52B388B5ABE14BA96E23C670 /* [CP] Check Pods Manifest.lock */,
 				C92D130B1F8E804E004FFB9E /* Sources */,
 				C92D130C1F8E804E004FFB9E /* Frameworks */,
 				C92D130D1F8E804E004FFB9E /* Resources */,
-				D307D3D88D11AF37DE9AE6C5 /* [CP] Embed Pods Frameworks */,
-				25AAA3004774AF1530F4A76D /* [CP] Copy Pods Resources */,
+				DCF5B79147235F240D8A62F3 /* [CP] Embed Pods Frameworks */,
+				58772F2A28B0AC9FF9154EAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -359,76 +362,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		05293EB607DAF154CCC6C6B1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Vkrypt_temp-Vkrypt_tempTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		15263D185646F06A64AAC313 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Vkrypt_temp-Vkrypt_tempUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		25AAA3004774AF1530F4A76D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempUITests/Pods-Vkrypt_temp-Vkrypt_tempUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		348FE6511C1AF706DBD3D18C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempTests/Pods-Vkrypt_temp-Vkrypt_tempTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftyVK/SwiftyVK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyVK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempTests/Pods-Vkrypt_temp-Vkrypt_tempTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		568E049D8C3D34E4251DEB49 /* [CP] Embed Pods Frameworks */ = {
+		13AE586209EDDE05B3B354B1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -446,7 +380,76 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vkrypt_temp/Pods-Vkrypt_temp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		58DD0E4DB3FFFAE03D17FF4D /* [CP] Copy Pods Resources */ = {
+		19A1E6587DBF96178B9AAEE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vkrypt_temp-Vkrypt_tempTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D3CE7FE0C8B0C2330B266D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempTests/Pods-Vkrypt_temp-Vkrypt_tempTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyVK/SwiftyVK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyVK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempTests/Pods-Vkrypt_temp-Vkrypt_tempTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52B388B5ABE14BA96E23C670 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vkrypt_temp-Vkrypt_tempUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58772F2A28B0AC9FF9154EAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempUITests/Pods-Vkrypt_temp-Vkrypt_tempUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AED34AD4694A6BCEF18A1517 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -461,7 +464,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempTests/Pods-Vkrypt_temp-Vkrypt_tempTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		996ED4A0CF6023932D899F59 /* [CP] Check Pods Manifest.lock */ = {
+		C75ABF9A820FBE1A7F91AB0D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -479,7 +482,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D307D3D88D11AF37DE9AE6C5 /* [CP] Embed Pods Frameworks */ = {
+		DCF5B79147235F240D8A62F3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -497,7 +500,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vkrypt_temp-Vkrypt_tempUITests/Pods-Vkrypt_temp-Vkrypt_tempUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D5CC8CD37B12678E821B5DD6 /* [CP] Copy Pods Resources */ = {
+		EDFA0A713B48B0FC70846D13 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -522,6 +525,7 @@
 				C9C43A001F903E0C007D5886 /* VKryptLoginDelegate.swift in Sources */,
 				21A105A71F92950F0043B57F /* VkDeleg.swift in Sources */,
 				21D0357F1F90D4F900E8F620 /* VKClient.swift in Sources */,
+				C9AAFF091FA350E7005577DE /* SwiftyJSON.swift in Sources */,
 				C9C439FE1F90388C007D5886 /* LoginViewController.swift in Sources */,
 				C92D12F41F8E804E004FFB9E /* AppDelegate.swift in Sources */,
 				21D035791F90D45100E8F620 /* User.swift in Sources */,
@@ -689,13 +693,15 @@
 		};
 		C92D13191F8E804E004FFB9E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A48A61D3EA93769B19C716E /* Pods-Vkrypt_temp.debug.xcconfig */;
+			baseConfigurationReference = 3D8228EF4A035D18FA8C4F8D /* Pods-Vkrypt_temp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V36XRJZZV9;
 				INFOPLIST_FILE = Vkrypt_temp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cmp.Vkrypt;
+				PRODUCT_BUNDLE_IDENTIFIER = cmp.Vkrypt1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -704,13 +710,15 @@
 		};
 		C92D131A1F8E804E004FFB9E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AAEBA1DF546C23978B4D105 /* Pods-Vkrypt_temp.release.xcconfig */;
+			baseConfigurationReference = 207E8EF273E53F86CEF9A974 /* Pods-Vkrypt_temp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V36XRJZZV9;
 				INFOPLIST_FILE = Vkrypt_temp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cmp.Vkrypt;
+				PRODUCT_BUNDLE_IDENTIFIER = cmp.Vkrypt1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -719,7 +727,7 @@
 		};
 		C92D131C1F8E804E004FFB9E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5DA551F45D56DFA5017CE37 /* Pods-Vkrypt_temp-Vkrypt_tempTests.debug.xcconfig */;
+			baseConfigurationReference = 90489D86A0D831B4BCB1FBB1 /* Pods-Vkrypt_temp-Vkrypt_tempTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -736,7 +744,7 @@
 		};
 		C92D131D1F8E804E004FFB9E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70DB1B65827807EEBC51D3EE /* Pods-Vkrypt_temp-Vkrypt_tempTests.release.xcconfig */;
+			baseConfigurationReference = 690DB64C5F899E712040A2AA /* Pods-Vkrypt_temp-Vkrypt_tempTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -753,7 +761,7 @@
 		};
 		C92D131F1F8E804E004FFB9E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67137FA3A12D01A2F4EBAA80 /* Pods-Vkrypt_temp-Vkrypt_tempUITests.debug.xcconfig */;
+			baseConfigurationReference = A90BCEAE363591CD4F46E775 /* Pods-Vkrypt_temp-Vkrypt_tempUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -769,7 +777,7 @@
 		};
 		C92D13201F8E804E004FFB9E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 258B895841AA032EAC55EFF0 /* Pods-Vkrypt_temp-Vkrypt_tempUITests.release.xcconfig */;
+			baseConfigurationReference = 6F36ACA20823DB6A94671F2B /* Pods-Vkrypt_temp-Vkrypt_tempUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

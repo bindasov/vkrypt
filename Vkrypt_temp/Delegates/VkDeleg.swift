@@ -9,38 +9,35 @@
 import SwiftyVK
 import UIKit
 
-class VKDeleg: VKDelegate {
-    let appID = "6219564"
-    let scope: Set<VK.Scope> = [.messages,.offline,.friends,.wall,.photos,.audio,.video,.docs,.market,.email]
-
+class VKDeleg: SwiftyVKDelegate {
+    
+    let appID = "6218409"
+    let scopes: Scopes = [.messages,.offline,.friends,.email]
+    
     init() {
-        VK.config.logToConsole = true
-        VK.configure(withAppId: appID, delegate: self)
+        VK.setUp(appId: appID, delegate: self)
     }
     
-    func vkWillAuthorize() -> Set<VK.Scope> {
-        return scope
+    func vkNeedsScopes(for sessionId: String) -> Scopes {
+        return scopes
     }
-
-    func vkDidAuthorizeWith(parameters: Dictionary<String, String>) {
-        NotificationCenter.default.post(name: Notification.Name(rawValue: "TestVkDidAuthorize"), object: nil)
-    }
-
-    func vkAutorizationFailedWith(error: AuthError) {
-        print("Autorization failed with error: \n\(error)")
-        NotificationCenter.default.post(name: Notification.Name(rawValue: "TestVkDidNotAuthorize"), object: nil)
-    }
-
-    func vkDidUnauthorize() {}
-
-    func vkShouldUseTokenPath() -> String? {
-        return nil
-    }
-
-    func vkWillPresentView() -> UIViewController {
-        return DispatchQueue.main.sync {
-            return UIApplication.shared.delegate!.window!!.rootViewController!
+    
+    func vkNeedToPresent(viewController: VKViewController) {
+        if let rootController = UIApplication.shared.keyWindow?.rootViewController {
+            rootController.present(viewController, animated: true, completion: nil)
         }
+    }
+    
+    func vkTokenCreated(for sessionId: String, info: [String : String]) {
+        print("token created in session \(sessionId) with info \(info)")
+    }
+    
+    func vkTokenUpdated(for sessionId: String, info: [String : String]) {
+        print("token updated in session \(sessionId) with info \(info)")
+    }
+    
+    func vkTokenRemoved(for sessionId: String) {
+        print("token removed in session \(sessionId)")
     }
 }
 
