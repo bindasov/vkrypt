@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyVK
 
 class LoginViewController: UIViewController {
 
@@ -85,9 +86,17 @@ class LoginViewController: UIViewController {
     
     @IBAction func onloginButton() {
         //авторизация пользователя
-        VKClient.action(1)
+//        VK.sessions?.default.logIn(onSuccess: <#T##([String : String]) -> ()#>, onError: <#T##RequestCallbacks.Error##RequestCallbacks.Error##(VKError) -> ()#>)
+        APIWorker.action(1)
+       
     }
     
+    
+    func goToLogin() {
+        //28.02
+        self.performSegue(withIdentifier: "LoginSegue", sender: nil )
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

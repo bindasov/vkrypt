@@ -10,7 +10,8 @@ import Foundation
 import SwiftyVK
 
 
-final class VKClient {
+final class APIWorker {
+    
     class func action(_ tag: Int) {
         switch tag {
         case 1:
@@ -29,44 +30,50 @@ final class VKClient {
             print("Unrecognized action!")
         }
     }
-
+    
     class func authorize() {
-        VK.logOut()
-        print("SwiftyVK: LogOut")
-        VK.logIn()
-        print("SwiftyVK: authorize")
+        VK.sessions?.default.logIn(
+            onSuccess: { info in
+                print("SwiftyVK: success authorize with", info)
+                //performSegue(withIdentifier: "ToChatSegue", sender: nil)
+        },
+            onError: { error in
+                print("SwiftyVK: authorize failed with", error)
+        }
+        )
     }
     
     class func logout() {
-        VK.logOut()
+        VK.sessions?.default.logOut()
         print("SwiftyVK: LogOut")
     }
     
     class func captcha() {
-        VK.API.custom(method: "captcha.force").send(
-            onSuccess: {response in print("SwiftyVK: captcha.force success \n \(response)")},
-            onError: {error in print("SwiftyVK: captcha.force fail \n \(error)")}
-        )
+        VK.API.Custom.method(name: "captcha.force")
+            .onSuccess { print("SwiftyVK: captcha.force successed with \n \(JSON($0))") }
+            .onError { print("SwiftyVK: captcha.force failed with \n \(JSON($0))") }
+            .send()
     }
-
+    
     class func validation() {
-        VK.API.custom(method: "account.testValidation").send(
-            onSuccess: {response in print("SwiftyVK: account.testValidation success \n \(response)")},
-            onError: {error in print("SwiftyVK: account.testValidation fail \n \(error)")}
-        )
+        VK.API.Custom.method(name: "account.testValidation")
+            .onSuccess { print("SwiftyVK: account.testValidation successed with \n \(JSON($0))") }
+            .onError { print("SwiftyVK: account.testValidation failed with \n \(JSON($0))") }
+            .send()
     }
-
+    
     class func usersGet() {
-        VK.API.Users.get([VK.Arg.userId : "1"]).send(
-            onSuccess: {response in print("SwiftyVK: users.get success \n \(response)")},
-            onError: {error in print("SwiftyVK: users.get fail \n \(error)")}
-        )
+        VK.API.Users.get(.empty)
+            .configure(with: Config.init(httpMethod: .POST))
+            .onSuccess { print("SwiftyVK: users.get successed with \n \(JSON($0))") }
+            .onError { print("SwiftyVK: friends.get fail \n \(JSON($0))") }
+            .send()
     }
-
+    
     class func friendsGet() {
-        VK.API.Friends.get([.count : "1", .fields : "city,domain"]).send(
-            onSuccess: {response in print("SwiftyVK: friends.get success \n \(response)")},
-            onError: {error in print("SwiftyVK: friends.get fail \n \(error)")}
-        )
+        VK.API.Friends.get(.empty)
+            .onSuccess { print("SwiftyVK: friends.get successed with \n \(JSON($0))") }
+            .onError { print("SwiftyVK: friends.get failed with \n \(JSON($0))") }
+            .send()
     }
 }

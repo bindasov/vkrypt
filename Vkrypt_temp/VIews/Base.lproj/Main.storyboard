@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LSN-ae-jpi">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -14,34 +14,10 @@
         <!--Splash View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="SplashViewController" customModule="Vkrypt_temp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="200px-VK.com-logo" translatesAutoresizingMaskIntoConstraints="NO" id="tDJ-pu-ffd">
-                                <rect key="frame" x="67" y="269" width="240" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="KPe-cu-hY6"/>
-                                    <constraint firstAttribute="height" constant="128" id="PTK-eL-Msa"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.31727063655853271" green="0.50560170412063599" blue="0.72157996892929077" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="tDJ-pu-ffd" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="IIb-ta-yen"/>
-                            <constraint firstItem="tDJ-pu-ffd" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Vrb-T0-iBU"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                    <connections>
-                        <segue destination="GAO-HZ-hR0" kind="presentation" identifier="TabTapeedViewSegue" id="BMK-yu-GpV"/>
-                        <segue destination="LSN-ae-jpi" kind="presentation" identifier="LoginSegue" id="Nfa-lZ-u2q"/>
-                    </connections>
-                </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="SplashViewController" customModule="Vkrypt_temp" customModuleProvider="target" sceneMemberID="viewController"/>
             </objects>
-            <point key="canvasLocation" x="-57" y="-232"/>
+            <point key="canvasLocation" x="-1252" y="397"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="1g5-4N-hdm">
@@ -112,11 +88,12 @@
                         <outlet property="logoMovedToTopConstraint" destination="43t-9P-zWM" id="R1R-YY-ZEu"/>
                         <outlet property="logoVerticalConstraint" destination="yt4-Me-jAZ" id="oBU-ls-ez5"/>
                         <outlet property="titleLabel" destination="J3A-Sy-rOJ" id="NwN-FE-qcw"/>
+                        <segue destination="GAO-HZ-hR0" kind="presentation" identifier="ToChatSegue" id="usV-1j-hmn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bul-0G-QUO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-58" y="532"/>
+            <point key="canvasLocation" x="-217" y="-233"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="laD-a2-Fui">
